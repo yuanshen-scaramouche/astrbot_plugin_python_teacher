@@ -1,0 +1,6 @@
+name: python_teacher
+author: 星汐
+description: 一个可接入自定义 AI 接口的 Python 学习插件，提供系统化学习路线、课程、练习与测验。
+version: 1.0.0
+repo: https://example.com/python_teacher
+astrbot_version: ">=4.0.0"
