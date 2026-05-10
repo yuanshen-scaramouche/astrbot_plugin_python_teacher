@@ -1,0 +1,2 @@
+# astrbot_plugin_python_teacher
+astrbot插件，用于让AI作为老师指导学习python代码
