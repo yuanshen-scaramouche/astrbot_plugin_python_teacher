@@ -773,10 +773,14 @@ class PythonTeacher(star.Star):
             )
 
             try:
+                # 先发送"AI正在思考..."提示
+                event.set_result(MessageEventResult().message(answer_header + "AI正在思考...").use_t2i(False))
+                
                 messages = self._build_study_prompt(state, prompt)
                 content = await self._call_openai_compatible(messages)
                 if not content:
                     content = "未获得模型回复。请检查 api_base/model 配置与服务状态。"
+                # 替换提示为真正的回复
                 event.set_result(MessageEventResult().message(answer_header + content).use_t2i(False))
                 # 保存对话历史（最多保留 10 轮对话，即 20 条消息）
                 history = state.get("conversation_history", [])
@@ -852,10 +856,14 @@ class PythonTeacher(star.Star):
                     del self._file_cache[session_id]
 
             try:
+                # 先发送"AI正在思考..."提示
+                event.set_result(MessageEventResult().message(answer_header + "AI正在思考...").use_t2i(False))
+                
                 messages = self._build_study_prompt(state, full_question)
                 content = await self._call_openai_compatible(messages)
                 if not content:
                     content = "未获得模型回复。请检查 api_base/model 配置与服务状态。"
+                # 替换提示为真正的回复
                 event.set_result(MessageEventResult().message(answer_header + content).use_t2i(False))
                 # 保存对话历史（最多保留 10 轮对话，即 20 条消息）
                 history = state.get("conversation_history", [])
