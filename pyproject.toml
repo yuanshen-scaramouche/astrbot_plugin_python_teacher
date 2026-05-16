@@ -1,6 +1,6 @@
 [project]
 name = "python_teacher"
-version = "1.0.0"
+version = "1.0.1"
 description = "AstrBot plugin for systematic Python learning with customizable AI integration"
 readme = "README.md"
 license = {text = "MIT"}

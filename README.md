@@ -1,6 +1,8 @@
 # Python 学习教练（python_teacher）
 
-一个用于帮助用户系统学习 Python 的 AstrBot 插件，内置学习路线、课程推进、练习与测验，并可接入 OpenAI 兼容接口进行 AI 答疑与个性化讲解。
+* 一个用于帮助用户系统学习 Python 的 AstrBot 插件，内置学习路线、课程推进、练习与测验，并可接入 OpenAI 兼容接口进行 AI 答疑与个性化讲解。
+
+![这是 Python**学习教练插件**的Logo，如果你看的这行字说明显示失败了](logo.png)
 
 ## 安装
 
@@ -45,12 +47,17 @@
 见 [CHANGELOG.md](./CHANGELOG.md)
 
 ## 联系方式（如果有问题或建议，欢迎联系。）
-- 邮箱：510160951@qq.com
-- 加群：[1042904301](https://a.aa.cab/a/qun.php/1042904301)
-- QQ号：510160951
+- 邮箱：510160951@qq.com - 一般不看，优先下方联系方式，使用此方法回复看运气
+- 加群：[1042904301](https://a.aa.cab/a/qun.php/1042904301) - 点击申请加入群，进群要求优先处理
+- QQ号：510160951（QQ搜索）
+
+## 服务商推荐
+- [HeadOne](https://api.headone.fit/register?aff=Jzm7) - 以优惠的价格提供 GPT 模型。
+- [柏拉图中转站](https://api.bltcy.ai/register?aff=7Yma55730) - 以实惠的价格提供大部分市面上的模型，近期停止对个人用户开放，转向针对企业用户。速度比上面的更快一点，大量使用优先考虑。
 
 ## 致谢
 
 - [AstrBot](https://github.com/Soulter/AstrBot) - 一个强大的多平台机器人框架
 - [Trae](https://trae.ai) - AI 开发助手，让开发更高效
 - [GPT](https://openai.com/) - 提供强大的语言模型能力
+- [HeadOne](https://api.headone.fit/register?aff=Jzm7) - 提供优惠的价格 GPT 模型，辅助开发本插件。
